@@ -1,0 +1,64 @@
+# Ignore Git history files
+.git/
+
+# Binaries for the build process
+[Bb]in/
+[Oo]bj/
+
+# Packages
+*.nupkg
+# Ignore the NuGet packages folder in the solution root
+# uncomment if you have a packages folder in the root
+# not common for SDK-style projects
+# packages/
+
+# Temporary files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Log files
+*.log
+
+# Azure Storage Emulator files
+*.vhd
+*.cspkg
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+.nuget/
+
+# Test results
+TestResults/
+
+# NCrunch
+_NCrunch_*
+
+# StyleCop
+StyleCopResults.xml
+
+# CodeRush
+.cr/
+
+# Other
+*.pid
+*.service
+*.vscode/
+*.vspscc
+*.vssscc
+*.vswork
+*.vsd
+
+# Editorconfig
+.editorconfig
+
+# This project's specific outputs (ensure these are not needed)
+# AIAgentConsole.dll
+# AIAgentConsole.exe
+# AIAgentConsole.pdb
